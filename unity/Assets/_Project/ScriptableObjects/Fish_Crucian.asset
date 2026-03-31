@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd09bca557e0441a8b6fbc22af5c7922, type: 3}
+  m_Name: Fish_Crucian
+  m_EditorClassIdentifier: Fisherman::Fisherman.Core.FishData
+  FishId: crucian
+  FishName: "\u9CA2\u9C7C"
+  Rarity: 0
+  FishSprite: {fileID: 0}
+  FunnyDescription: "\u666E\u901A\u5230\u4E0D\u80FD\u518D\u666E\u901A\u7684\u9C7C\uFF0C\u4F46\u5B83\u5F88\u52AA\u529B\u5730\u6D3B\u7740\u3002"
+  SpawnWeight: 0.6
+  FightDifficulty: 0.7
+  MinPrice: 8
+  MaxPrice: 15
+  StaminaMultiplier: 0.8
+  RushFrequency: 0.8
+  RushStrength: 0.7
+  TensionSafeZoneModifier: 0
+  ExpressionNormal: {fileID: 0}
+  ExpressionScared: {fileID: 0}
+  ExpressionSmug: {fileID: 0}
+  ExpressionSad: {fileID: 0}

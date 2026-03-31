@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd09bca557e0441a8b6fbc22af5c7922, type: 3}
+  m_Name: Fish_Bass
+  m_EditorClassIdentifier: Fisherman::Fisherman.Core.FishData
+  FishId: bass
+  FishName: "\u9C88\u9C7C"
+  Rarity: 1
+  FishSprite: {fileID: 0}
+  FunnyDescription: "\u6C34\u4E2D\u7684\u5C0F\u9738\u738B\uFF0C\u810A\u80CC\u4E0A\u7684\u523A\u662F\u5B83\u6700\u540E\u7684\u502A\u5F3A\u3002"
+  SpawnWeight: 0.3
+  FightDifficulty: 1.2
+  MinPrice: 20
+  MaxPrice: 40
+  StaminaMultiplier: 1
+  RushFrequency: 1.2
+  RushStrength: 1.2
+  TensionSafeZoneModifier: 0.05
+  ExpressionNormal: {fileID: 0}
+  ExpressionScared: {fileID: 0}
+  ExpressionSmug: {fileID: 0}
+  ExpressionSad: {fileID: 0}

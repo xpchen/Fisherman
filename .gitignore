@@ -1,24 +1,60 @@
+# macOS
+.DS_Store
 
-#///////////////////////////
-# Cocos Creator 3D Project
-#///////////////////////////
-library/
-temp/
-local/
-build/
-profiles/
-native
-#//////////////////////////
-# NPM
-#//////////////////////////
-node_modules/
+# MCP config (local)
+.mcp.json
 
-#//////////////////////////
-# VSCode
-#//////////////////////////
+# Unity generated
+unity/[Ll]ibrary/
+unity/[Tt]emp/
+unity/[Oo]bj/
+unity/[Bb]uild/
+unity/[Bb]uilds/
+unity/[Ll]ogs/
+unity/[Uu]ser[Ss]ettings/
+unity/[Mm]emoryCaptures/
+unity/[Rr]ecordings/
+
+# Unity IDE files
+unity/ExportedObj/
+unity/.consulo/
+unity/*.csproj
+unity/*.unityproj
+unity/*.sln
+unity/*.suo
+unity/*.tmp
+unity/*.user
+unity/*.userprefs
+unity/*.pidb
+unity/*.booproj
+unity/*.svd
+unity/*.pdb
+unity/*.mdb
+unity/*.opendb
+unity/*.VC.db
+unity/*.pidb.meta
+unity/*.pdb.meta
+unity/*.mdb.meta
+unity/sysinfo.txt
+
+# Unity builds
+*.apk
+*.aab
+*.unitypackage
+*.app
+
+# Unity Addressables
+unity/[Aa]ssets/[Aa]ddressable[Aa]ssets[Dd]ata/*/*.bin*
+
+# TextMeshPro (auto-imported)
+unity/[Aa]ssets/TextMesh*Pro/
+
+# Screenshots (generated during dev)
+unity/Assets/Screenshots/
+
+# IDE
 .vscode/
-
-#//////////////////////////
-# WebStorm
-#//////////////////////////
 .idea/
+
+# Node (legacy Cocos)
+node_modules/

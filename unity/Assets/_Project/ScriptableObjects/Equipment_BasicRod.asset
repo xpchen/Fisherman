@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be287f78eb7e049c5ae097984fa41935, type: 3}
+  m_Name: Equipment_BasicRod
+  m_EditorClassIdentifier: Fisherman::Fisherman.Core.EquipmentData
+  EquipmentId: basic_rod
+  EquipmentName: "\u57FA\u7840\u9C7C\u7AFF"
+  Icon: {fileID: 0}
+  FunnyDescription: "\u7237\u7237\u4F20\u4E0B\u6765\u7684\u9C7C\u7AFF\uFF0C\u867D\u7136\u8001\u4E86\u70B9\uFF0C\u4F46\u80DC\u5728...\u4FBF\u5B9C\u3002"
+  UpgradeCost: 150
+  MaxLevel: 1
+  CastDistanceBonus:
+  - 0
+  - 0.12
+  TensionSafeZoneBonus:
+  - 0
+  - 0.1
+  RareFishChanceBonus:
+  - 0
+  - 0.03
